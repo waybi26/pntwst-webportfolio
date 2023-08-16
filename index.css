@@ -18,6 +18,10 @@ body {
 	text-decoration-color: navy;
 }
 
+.name{
+	font-family: 'Caveat', cursive;
+}
+
 .img-bg{
 	border: 20px solid white;
 	outline: 15px solid #0d6efd;
