@@ -8,7 +8,7 @@
 body {
 	height: 100vh;
 	width: 100vw;
-	background: linear-gradient(-90deg, #068FFF 80%, #ffff 20%); 
+	background: linear-gradient(-90deg, #0A6EBD 80%, #ffff 20%); 
 }
 
 #navbar{
@@ -23,10 +23,17 @@ body {
 	font-family: 'Caveat', cursive;
 }
 
+.description{
+	background-color: rgb(250, 240, 215,0.3);
+	border-radius: 20px;
+	padding: 5px;
+	font-size: 1.5rem;
+}
+
 .img-bg{
-	background-color: #068FFF;
+	background-color: #0A6EBD;
 	border: 20px solid white;
-	outline: 10px solid #068FFF;
+	outline: 10px solid #0A6EBD;
 }
 
 #project-card {
@@ -34,13 +41,23 @@ body {
 }
 
 .tab-bg{
-	background-color: #068FFF;
+	background-color: #0A6EBD;
 	border: 20px solid white;
-	outline: 10px solid #068FFF;
+	outline: 10px solid #0A6EBD;
 	border-radius: 120px;
 }
 
 .carousel-img{
 	border-radius: 25px;
 	border: 10px inset gray;
+}
+
+#core-tools{
+	background-color: rgb(250, 240, 215,0.3);
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.form{
+	border-radius: 20px;
 }
