@@ -1,0 +1,39 @@
+/* CSS Reset */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	background: linear-gradient(-90deg, #0d6efd 80%, #ffff 20%); 
+}
+
+#navbar{
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	background: transparent;
+	text-decoration-color: navy;
+}
+
+.img-bg{
+	border: 20px solid white;
+	outline: 15px solid #0d6efd;
+}
+
+#project-card {
+	width: 25rem;
+}
+
+.tab-bg{
+	border: 20px solid white;
+	outline: 15px solid #0d6efd;
+	border-radius: 120px;
+}
+
+.carousel-img{
+	border-radius: 25px;
+	border: 10px inset gray;
+}
